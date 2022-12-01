@@ -1,0 +1,20 @@
+{
+  "name": "avent-of-code-2022",
+  "version": "1.0.0",
+  "description": "This are the programs I made for this years Avent of Code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/popiolekdawid/avent-of-code-2022.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/popiolekdawid/avent-of-code-2022/issues"
+  },
+  "homepage": "https://github.com/popiolekdawid/avent-of-code-2022#readme"
+}
