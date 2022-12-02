@@ -29,5 +29,5 @@ function findElf (calorieData) { //find elf with the most calories
   return Math.max(...sum); //find the Elf with the biggest calorie sum
 }
 
-const calorieData = processData('./day1/task1/data.txt');  //read and process calorie data into a two dimensional array. (calorieData[index of Elf][snacks he carries]
+const calorieData = processData('./day1/data.txt');  //read and process calorie data into a two dimensional array. (calorieData[index of Elf][snacks he carries]
 calorieData.then((result) => console.log(findElf(result))); //load the processed data, add each elfs snack's calorie values, find the biggest calorie sum and return its index.
