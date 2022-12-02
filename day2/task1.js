@@ -15,7 +15,7 @@ async function processData(filename) {
   }
 }
 
-function findTotalScore(strategyData) { //find elf with the most calories
+function findTotalScore(strategyData) { 
   let sum = 0;   //initialize sum with 0;
   for(i in strategyData) {
         switch(strategyData[i][1]) {
