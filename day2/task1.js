@@ -48,8 +48,8 @@ function findTotalScore(strategyData) { //find elf with the most calories
                 break;
         }
   }
-  return sum; //find the Elf with the biggest calorie sum
+  return sum;
 }
 
-const strategyData = processData('./day2/data.txt');  //read and process calorie data into a two dimensional array. (strategyData[index of Elf][snacks he carries]
-strategyData.then((result) => console.log(findTotalScore(result))); //load the processed data, add each elfs snack's calorie values, find the biggest calorie sum and return its index.
+const strategyData = processData('./day2/data.txt');  //read and process data into a two dimensional array. strategyData[A,B,C][X,Y,Z]
+strategyData.then((result) => console.log(findTotalScore(result))); //show the result
