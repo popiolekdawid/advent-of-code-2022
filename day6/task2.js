@@ -1,3 +1,5 @@
+//there's a bug somwhere here, it doesn't seem to catch anything, even though it's almost the same as the previous answer.
+
 const fs = require('fs');
 const data = fs.readFileSync('./day6/data.txt','utf8');
 
